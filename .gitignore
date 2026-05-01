@@ -1,0 +1,78 @@
+# =========================
+
+# Node.js
+
+# =========================
+
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# =========================
+
+# Environment Variables (IMPORTANT)
+
+# =========================
+
+.env
+.env.*
+!.env.example
+
+# =========================
+
+# Build / Production
+
+# =========================
+
+dist/
+build/
+client/dist/
+server/dist/
+
+# =========================
+
+# Logs
+
+# =========================
+
+logs/
+*.log
+
+# =========================
+
+# OS / System Files
+
+# =========================
+
+.DS_Store
+Thumbs.db
+
+# =========================
+
+# IDE / Editor
+
+# =========================
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+
+# Misc
+
+# =========================
+
+coverage/
+*.tmp
+*.temp
+
+# =========================
+
+# Optional (if using uploads)
+
+# =========================
+
+uploads/
